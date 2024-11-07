@@ -1,8 +1,8 @@
 Package: RobinCar
 Type: Package
-Title: Robust Estimation and Inference in Covariate-Adaptive
-        Randomization
-Version: 0.3.0
+Title: Robust Inference for Covariate Adjustment in Randomized Clinical
+        Trials
+Version: 0.3.1
 Authors@R: c(
     person("Marlena", "Bannick", 
         email="mnorwood@uw.edu", 
@@ -12,7 +12,7 @@ Authors@R: c(
     person("Yanyao", "Yi", role="aut"),
     person("Faith", "Bian", role="aut")
     )
-Description: Performs robust estimation and inference when using covariate adjustment and/or covariate-adaptive randomization in randomized controlled trials.
+Description: Performs robust estimation and inference when using covariate adjustment and/or covariate-adaptive randomization in randomized clinical trials.
     Ting Ye, Jun Shao, Yanyao Yi, Qinyuan Zhao (2023) <doi:10.1080/01621459.2022.2049278>.
     Ting Ye, Marlena Bannick, Yanyao Yi, Jun Shao (2023) <doi:10.1080/24754269.2023.2205802>.
     Ting Ye, Jun Shao, Yanyao Yi (2023) <doi:10.1093/biomet/asad045>.
@@ -27,11 +27,11 @@ Depends: R (>= 2.10)
 Suggests: knitr, rmarkdown, ranger, forcats, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-05-20 20:03:54 UTC; marlena
+Packaged: 2024-11-07 00:53:19 UTC; marlena
 Author: Marlena Bannick [cre, aut] (<https://orcid.org/0000-0001-6279-5978>),
   Ting Ye [aut],
   Yanyao Yi [aut],
   Faith Bian [aut]
 Maintainer: Marlena Bannick <mnorwood@uw.edu>
 Repository: CRAN
-Date/Publication: 2024-05-20 20:20:02 UTC
+Date/Publication: 2024-11-07 01:30:02 UTC

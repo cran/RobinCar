@@ -1,7 +1,7 @@
-d6ce492a8da3ba69d0006ad1b9a9e054 *DESCRIPTION
+ccb3155c3272c8a9fdd7d6b77acee5b5 *DESCRIPTION
 ec881c0127c9388c73ffbfa214e4f98c *LICENSE
 f97e5458c3ba4c565dba46b2b62da518 *NAMESPACE
-a4c917a52cf8bed86f6227a1f8564b63 *NEWS.md
+66ccc90e4c61eea7330259a364942db1 *NEWS.md
 fa8e0561eb8c940f96c53657a32b40a1 *R/Data.R
 d3c253635c4d8c8ae83afce3db080367 *R/adjust-SL.R
 8a461156fae4f9cf39d1b589d7d6c711 *R/adjust-covhr.R
@@ -18,7 +18,7 @@ d41d8cd98f00b204e9800998ecf8427e *R/logic-covhr.R
 2b666413379dc3b2b75a3a33e5d2f555 *R/logic-glm.R
 a0930a4f878c94e0a514921b707cfe0c *R/logic-tte.R
 0136cc1a997755528a50fd6586d49f57 *R/model.R
-fa2c0755f2c698b23bbf1668849718c5 *R/robincar-SL.R
+a85a4c4457790131f94d728ea58ac726 *R/robincar-SL.R
 a000c709cda2da9646b6f0e1e1c9b54d *R/robincar-calibrate.R
 36dec77c8ab8cc1ae65cd9d29f00de71 *R/robincar-contrast.R
 405eb6f6c9c925aaadfdc9e11c9bf207 *R/robincar-covhr.R
@@ -38,7 +38,7 @@ b56ff2b193ecba52f9ec7f3b10cca008 *R/utils-pipe.R
 53e6d61c389ce7a517a2a7149643c4fa *R/utils-results.R
 da3abd583a5727dc125ef790c378beb5 *R/utils-simdata-car.R
 e72ee9e03cdab73144c94ce9fdafdaf9 *R/utils-simdata.R
-179a048a4793544fe0e5a04aaf6e384d *R/variance-linear.R
+dbfbc7fdda858698ec22d7c5c8cefe0d *R/variance-linear.R
 c279f3b85c514049127c82880652280a *README.md
 cf72cd536444eb9fe47d001d3c9e4545 *man/car_pb.Rd
 b8672a6aff1afc2b9d3ced2895ded1c1 *man/car_ps.Rd
@@ -51,7 +51,7 @@ c4f8e22c3bb6b2126333834196038192 *man/print.CalibrationResult.Rd
 ad02ba30fc8e0606454ce56df4125893 *man/print.GLMModelResult.Rd
 9254b41e12d198df3ca8826212180367 *man/print.LinModelResult.Rd
 07234fdfc72918ee8d232caed09a7db4 *man/print.TTEResult.Rd
-988b0c96740e1d45f0c6d9505c8b1175 *man/robincar_SL.Rd
+9469e5f53517e77b1a01087985e29350 *man/robincar_SL.Rd
 816bc5101505363567700cbc75426a83 *man/robincar_SL_median.Rd
 53a7ce0e486bf54a8cc94c7f7733473d *man/robincar_calibrate.Rd
 7f2fd2a846b03f4014fefe5ad49a1a59 *man/robincar_contrast.Rd
@@ -73,6 +73,7 @@ cffec50693cd59164056d42937f386bf *tests/testthat/test-car.R
 3cfb77d65cab08906967a56505c5e7e9 *tests/testthat/test-covhr.R
 c9e5cb849af9fee7f43a1a836b7130a0 *tests/testthat/test-coxscore.R
 776671d67f81186216dead2361bdbe15 *tests/testthat/test-edit-formula.R
+2a6076eff6239f7c320829846f9c283d *tests/testthat/test-factor-ordering.R
 ca80684b0ffa07803ac95fd0201f9a0e *tests/testthat/test-glm-calibration.R
 513062a09d505409430754052460730d *tests/testthat/test-glm-legacy.R
 cb803f061949146035816224be8e7e0b *tests/testthat/test-glm.R
