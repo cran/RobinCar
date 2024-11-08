@@ -1,4 +1,4 @@
-ccb3155c3272c8a9fdd7d6b77acee5b5 *DESCRIPTION
+62e5d8e988644ba2d6d1e0ce9983b8b2 *DESCRIPTION
 ec881c0127c9388c73ffbfa214e4f98c *LICENSE
 f97e5458c3ba4c565dba46b2b62da518 *NAMESPACE
 66ccc90e4c61eea7330259a364942db1 *NEWS.md
@@ -73,7 +73,7 @@ cffec50693cd59164056d42937f386bf *tests/testthat/test-car.R
 3cfb77d65cab08906967a56505c5e7e9 *tests/testthat/test-covhr.R
 c9e5cb849af9fee7f43a1a836b7130a0 *tests/testthat/test-coxscore.R
 776671d67f81186216dead2361bdbe15 *tests/testthat/test-edit-formula.R
-2a6076eff6239f7c320829846f9c283d *tests/testthat/test-factor-ordering.R
+180a35fe910869cdf05cfedfa9c7158a *tests/testthat/test-factor-ordering.R
 ca80684b0ffa07803ac95fd0201f9a0e *tests/testthat/test-glm-calibration.R
 513062a09d505409430754052460730d *tests/testthat/test-glm-legacy.R
 cb803f061949146035816224be8e7e0b *tests/testthat/test-glm.R
