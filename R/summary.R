@@ -144,14 +144,15 @@ print.TTEResult <- function(x, ...){
 
   df[, N := 1]
   id.cols <- c("treat")
-  data.table::setorder(df, treat)
-  txtitle <- "Treatment Group"
-
   if(x$settings$car_strata){
     df$car_strata <- x$data$joint_strata
     id.cols <- c(id.cols, "car_strata")
     data.table::setorder(df, car_strata, treat)
+  } else {
+    data.table::setorder(df, treat)
   }
+  txtitle <- "Treatment Group"
+
   summ <- df[, lapply(.SD, sum), by=id.cols, .SDcols=c("N", "observed")]
   summ[, name := paste0(x$data$treat_col, " = ", treat)]
 
@@ -218,4 +219,41 @@ print.CalibrationResult <- function(x, ...){
   print(x$result)
   cat("\nVariance-Covariance Matrix:\n")
   print(x$varcov)
+}
+
+
+#' Print MH result
+#'
+#' @param x A ContrastResult object
+#' @param ... Additional arguments
+#' @export
+#'
+#' @returns Prints estimates (and variances) of treatment contrasts based on MH risk difference or ATE
+print.MHResult <- function(x, ...){
+  if("MH" == x$settings$estimand){
+    est_type <- "Mantel-Haenszel risk difference"
+  } else {
+    est_type <- "ATE"
+  }
+  if("GR" == x$settings$ci_type){
+    c_type <- "Greenland's estimator"
+  } else if("mGR" == x$settings$ci_type){
+    c_type <- "modified Greenland's estimator"
+  } else{
+    c_type <- "Sato's estimator"
+  }
+  output_title <- sprintf("Treatment group contrasts based on %s", est_type)
+  output_estimand <- sprintf("Estimand: %s", est_type)
+  output_strat <- sprintf("Stratified by %s", paste(x$settings$strata_cols, collapse=", "))
+  output_ci <- sprintf("SE calculated via %s", c_type)
+  cat(output_title)
+  cat("\n")
+  cat(output_estimand)
+  cat("\n")
+  cat(output_strat)
+  cat("\n")
+  cat(output_ci)
+  cat("\n\n")
+  cat("Contrasts:\n")
+  print(x$result)
 }

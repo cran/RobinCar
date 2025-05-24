@@ -22,6 +22,11 @@
   }
 }
 
+.check.variance_type <- function(variance_type){
+  OPTIONS <- c(1, 2, 3)
+  .check.options("variance_type", variance_type, OPTIONS)
+}
+
 .check.adj_method.logrank <- function(adj_method){
   OPTIONS <- c("CL",
                "CSL")
@@ -55,3 +60,18 @@
 #   #   .check.options("Super Learner libraries", lib, OPTIONS)
 #   # }
 # }
+
+.check.estimand_ci <- function(estimand,ci_type){
+  OPTIONS.estimand <- c("MH",
+                        "ATE")
+  .check.options("estimand", estimand, OPTIONS.estimand)
+  
+  OPTIONS.ci_type <- c("GR", 
+                       "Sato", 
+                       "mGR")
+  .check.options("ci_type", ci_type, OPTIONS.ci_type)
+  
+  if(estimand=="ATE" & ci_type!="mGR"){
+    stop(paste0('Using ', ci_type, ' variance estimator is invalid when estimating ATE.\n Please use modified GR estimator and set ci_type = "mGR".'))
+  }
+}
