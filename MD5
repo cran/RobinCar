@@ -1,7 +1,7 @@
-10ddb03e5e992dadf29603df774a7cbb *DESCRIPTION
+735706ac3f1bc3542cf4af4b3c793583 *DESCRIPTION
 ec881c0127c9388c73ffbfa214e4f98c *LICENSE
-0949dae7e218f288614331ff839847fe *NAMESPACE
-c4ac7a3c48eaa6c47f5c2222ef737f51 *NEWS.md
+479f25c5ad36ee94d34843011b2d25b8 *NAMESPACE
+868bcff34a442b9520c4359439859e18 *NEWS.md
 a3d0a82ce2986f426d9d12b365ff8582 *R/Data.R
 214866dd015a110c5efd616ddca9c25a *R/adjust-SL.R
 5c44b1069d9c36d973dc2208175d6376 *R/adjust-covhr.R
@@ -21,14 +21,14 @@ a0930a4f878c94e0a514921b707cfe0c *R/logic-tte.R
 f8836e89b466c203f8b40d4839cf3828 *R/model.R
 861e835dfb9d6d8dba90f50f861db77b *R/robincar-SL.R
 a000c709cda2da9646b6f0e1e1c9b54d *R/robincar-calibrate.R
-36dec77c8ab8cc1ae65cd9d29f00de71 *R/robincar-contrast.R
+b7427e055c6408dfeb5317601aa5dac2 *R/robincar-contrast.R
 405eb6f6c9c925aaadfdc9e11c9bf207 *R/robincar-covhr.R
 2e015cdd61622ba329dbfc90635f0832 *R/robincar-coxscore.R
 a69e754dcb3848b920a6c68a8d688495 *R/robincar-glm.R
 d8866ffd7f08cf0f80f211ac00bd667e *R/robincar-linear.R
 1cfef76cdbf2de02710e8ba5d41f0eb6 *R/robincar-logrank.R
 7e3397a83edf811f6e6e1e19d71ce315 *R/robincar-mh.R
-af99ef6721a65a89aaba638a68daea11 *R/robincar-tte.R
+ac9706940c078bb8612acf9a46ed605a *R/robincar-tte.R
 216032786fa91e8a5bd007d32d87b6ed *R/summary.R
 acd5ad546fe9f672ab4379b1fc8cc95e *R/sysdata.rda
 bba04175f89f60ea13a2ad208917e71a *R/utils-adjust.R
@@ -41,8 +41,8 @@ b56ff2b193ecba52f9ec7f3b10cca008 *R/utils-pipe.R
 da3abd583a5727dc125ef790c378beb5 *R/utils-simdata-car.R
 e72ee9e03cdab73144c94ce9fdafdaf9 *R/utils-simdata.R
 a6390f17e6d6fb949871bf8ca271b6f7 *R/variance-linear.R
-489bd887453a3adc288068205f94fd8c *README.md
-8fa6bf92512a2cb19bb3160d8bf12aa0 *build/partial.rdb
+bf54c6232747c4f88d97d628488deb4f *README.md
+72bd0b424ddb2935b13b8b2acfe525fb *build/partial.rdb
 9f28cad8d158964b15429dce4e4fe442 *inst/REFERENCES.bib
 f2fc7880329bc9d8b2fb062ed19d8127 *inst/WORDLIST
 cf72cd536444eb9fe47d001d3c9e4545 *man/car_pb.Rd
@@ -67,7 +67,7 @@ ad02ba30fc8e0606454ce56df4125893 *man/print.GLMModelResult.Rd
 87c6fe047a49b13a5afeea66b369bc82 *man/robincar_linear.Rd
 688d5646da2d6672c486813dfd3c79b8 *man/robincar_logrank.Rd
 e4597b2ea0b8f3102778240543eb5f2c *man/robincar_mh.Rd
-3aa873f4ec1bb4d33dfe1f04e8dda5b6 *man/robincar_tte.Rd
+e32cc067135a62b480f31d28a259946a *man/robincar_tte.Rd
 5d126319f73d661ad6081e8fedd751a5 *tests/testthat.R
 3afa7cc166c4ee56db28f40cf8d06976 *tests/testthat/helpers-covhr.R
 433802b91623729020de4c483b031172 *tests/testthat/helpers-glm-calibration.R
@@ -76,7 +76,7 @@ e4597b2ea0b8f3102778240543eb5f2c *man/robincar_mh.Rd
 aa44e509bbcf8ba5e0386a79b20adebc *tests/testthat/test-SL.R
 212baf5438e1ee2787d574052e0aa54f *tests/testthat/test-adjust-tte.R
 cffec50693cd59164056d42937f386bf *tests/testthat/test-car.R
-62bee354180b5b2375a46fbd8b41ea00 *tests/testthat/test-contrast.R
+ba190c5853f51168f5f1b40895fc95de *tests/testthat/test-contrast.R
 3cfb77d65cab08906967a56505c5e7e9 *tests/testthat/test-covhr.R
 c9e5cb849af9fee7f43a1a836b7130a0 *tests/testthat/test-coxscore.R
 776671d67f81186216dead2361bdbe15 *tests/testthat/test-edit-formula.R

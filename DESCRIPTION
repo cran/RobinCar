@@ -2,10 +2,10 @@ Package: RobinCar
 Type: Package
 Title: Robust Inference for Covariate Adjustment in Randomized Clinical
         Trials
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: c(
     person("Marlena", "Bannick", 
-        email="mnorwood@uw.edu", 
+        email="marlena.bannick@outlook.com", 
         role=c("cre", "aut"),
         comment=c(ORCID="0000-0001-6279-5978")),
     person("Yuhan", "Qian", role="aut"),
@@ -31,13 +31,13 @@ Suggests: knitr, rmarkdown, ranger, forcats, matrixcalc, testthat (>=
 RdMacros: Rdpack
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2025-05-23 23:06:16 UTC; marlena
+Packaged: 2026-01-28 05:02:49 UTC; marlena
 Author: Marlena Bannick [cre, aut] (ORCID:
     <https://orcid.org/0000-0001-6279-5978>),
   Yuhan Qian [aut],
   Ting Ye [aut],
   Yanyao Yi [aut],
   Faith Bian [aut]
-Maintainer: Marlena Bannick <mnorwood@uw.edu>
+Maintainer: Marlena Bannick <marlena.bannick@outlook.com>
 Repository: CRAN
-Date/Publication: 2025-05-24 15:40:12 UTC
+Date/Publication: 2026-01-28 09:00:02 UTC
